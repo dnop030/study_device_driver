@@ -1,1 +1,3 @@
 study how to use module_param
+
+using "sudo insmod <name of module.ko> <name of param>=<value of param>
