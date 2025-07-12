@@ -11,7 +11,7 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("psrikamo");
 
 static dev_t	dev_number;
-static int		res_regis_driver = 0;
+static int		res_regis_driver = -1;
 
 static int	__init driver_init(void) {
 
