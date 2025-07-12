@@ -7,9 +7,6 @@
 #define NUM_DEVICES 1
 #define FIRST_MINOR_NUMBER 0
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("psrikamo");
-
 static dev_t	dev_number;
 static int		res_regis_driver = -1;
 
@@ -30,3 +27,6 @@ static void	__exit driver_exit(void) {
 
 module_init(driver_init);
 module_exit(driver_exit);
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("psrikamo");
